@@ -1,5 +1,6 @@
 package com.example.poedemo;
 
+import com.example.poedemo.contentprovider.ProviderActivity;
 import com.example.poedemo.lrc.ActivityLRC;
 import com.example.poedemo.sort.SortActivity;
 import com.example.poedemo.srt.ActivitySRT;
@@ -61,6 +62,11 @@ public class MainActivity extends Activity {
 				if(arg2==2){
 					startActivity(new Intent(MainActivity.this,SortActivity.class));
 				}
+				
+				if(arg2==3){
+					startActivity(new Intent(MainActivity.this,ProviderActivity.class));
+				}
+				
 			}
 			
 		});

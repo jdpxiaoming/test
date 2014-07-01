@@ -42,8 +42,8 @@ public class MyProviderMetaData {
         /** 
          * 该ContentProvider所返回的数据类型定义 
          */  
-        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/org.juetion.user";  
-        public static final String CONTENT_TYPE_ITEM = "vnd.android.cursor.item/org.juetion.user";  
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/com.example.poedemo.MyContentProvider.users";  
+        public static final String CONTENT_TYPE_ITEM = "vnd.android.cursor.item/com.example.poedemo.MyContentProvider.users";  
         /** 
          * 列名 
          */  

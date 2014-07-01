@@ -7,10 +7,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
 
-	private static SQLiteDatabase db ;
+//	private static SQLiteDatabase db ;
 	
-	
-	private DBOpenHelper(Context context){
+	public DBOpenHelper(Context context){
 		super(context, MyProviderMetaData.DATABASE_NAME, null, MyProviderMetaData.DATABASE_VERSION);
 	}
 	
@@ -20,28 +19,25 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 	}
 
 	@Override
-	public void onCreate(SQLiteDatabase arg0) {
-
+	public void onCreate(SQLiteDatabase db) {
 		//create the table 
-		db.execSQL("create table user(id int,name varchar(20))");  
+		db.execSQL("create table users(_id int,name varchar(20),age int)");  
 	}
 
 	@Override
-	public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
+	public void onUpgrade(SQLiteDatabase db, int arg1, int arg2) {
 		// TODO Auto-generated method stub
-		//1.drop all database 
-//		onCreate(arg0);
-		db.execSQL("alter user t1 add age int"); 
+//		db.execSQL("alter users t1 add age int"); 
 	}
 
-	public synchronized SQLiteDatabase getWritable(){
-		synchronized (db) {
-			
-			if(db==null){
-				db=  this.getWritableDatabase();
-			}
-		}
-		
-		return db;
-	}
+//	public synchronized SQLiteDatabase getWritable(){
+//		synchronized (this) {
+//			
+//			if(db==null){
+//				db=  this.getWritableDatabase();
+//			}
+//		}
+//		
+//		return db;
+//	}
 }
