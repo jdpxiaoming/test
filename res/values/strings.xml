@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">poeDemo</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <string-array name="demolist">
+        <item>读取lrc文件</item>
+        <item>读取srt文件</item>
+        <item>集合自动排序(String)</item>
+        <item>contentprovider实例</item>
+        <item>等待添加...</item>
+    </string-array>
+</resources>
