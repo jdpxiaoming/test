@@ -1,6 +1,7 @@
 package com.example.poedemo;
 
 import com.example.poedemo.contentprovider.ProviderActivity;
+import com.example.poedemo.dns.ActivityDNS;
 import com.example.poedemo.lrc.ActivityLRC;
 import com.example.poedemo.sort.SortActivity;
 import com.example.poedemo.srt.ActivitySRT;
@@ -67,6 +68,9 @@ public class MainActivity extends Activity {
 					startActivity(new Intent(MainActivity.this,ProviderActivity.class));
 				}
 				
+				if(arg2==4){//dns
+					startActivity(new Intent(MainActivity.this,ActivityDNS.class));
+				}
 			}
 			
 		});

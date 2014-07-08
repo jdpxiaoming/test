@@ -10,6 +10,7 @@
         <item>读取srt文件</item>
         <item>集合自动排序(String)</item>
         <item>contentprovider实例</item>
+        <item>域名解析实例</item>
         <item>等待添加...</item>
     </string-array>
 </resources>
