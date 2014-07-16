@@ -16,6 +16,17 @@
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
     <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
     
+    <!-- blooth print --> <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    
+    
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -43,6 +54,73 @@
         <activity android:name="com.example.poedemo.sort.SortActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:name="com.example.poedemo.contentprovider.ProviderActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:name="com.example.poedemo.dns.ActivityDNS" android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        
+        <activity 
+            android:name="com.example.poedemo.wlanprint.BlueToothActivity" 
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            />
+        <!-- bluetooth	activity -->
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.OptionsActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.CustomPrintRead"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.ReadActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.Connect"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.Help"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.AutoConnect"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.SetKey"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.UpdateProgram"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.UpdateProgramOptions"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.Configue"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.SetAndShow"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.Barcode"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.example.poedemo.wlanprint.Qrcode"
+            android:screenOrientation="portrait" />
+        
+        
+        <service 
+            android:name="com.example.poedemo.wlanprint.BtService" 
+            />
+        
+        <!-- bluetooth	activity -->
         
     </application>
 

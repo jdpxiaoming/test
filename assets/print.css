@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mt5 {
+	margin-top: 50px;
+}
+
+.mt10 {
+	margin-top: 100px;
+}
+
+.main_print {
+	width: 260dp;
+	text-align: left;
+	font-family: "微软雅黑", "黑体", "Lucida Grande", Verdana, sans-serif;
+}
+
+.print_welcome {
+	font-size: 50px;
+	text-align: left;
+}
+.bar_code{
+	text-align: center;
+	width: 100%;
+}
+
+.shop_info.mt10 {
+	overflow: hidden;
+	text-align: left;
+	font-size: 100px;
+}
+
+.shop_info {
+	overflow: hidden;
+	text-align: left;
+	font-size: 50px;
+}
+
+.order_detail {
+	margin-top: 50px;
+}
+
+.order_detail .no {
+	height: 20px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.order_detail .time {
+	height: 20px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.order_item {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.order_item th {
+	border-bottom: 1px red dashed;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.order_item td {
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.border_bottom {
+	height: 1px;
+	border-bottom: 1px red dashed;
+}
+
+.total {
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	text-align: left;
+}
+
+.customer_info {
+	text-align: left;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.print_thx {
+	height: 60px;
+	line-height: 60px;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.goods_name {
+	max-width: 115px;
+	word-break: break-word;
+}
+
+.printBtn {
+	text-align: center;
+}
+
+.print_logo {
+	font-size: 14px;
+	text-align: center;
+}
