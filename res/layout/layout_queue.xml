@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    		android:layout_width="match_parent"
+	    		android:layout_height="match_parent"
+	    		android:text="  6月14日，苏州工业园区第五届高技能人才职业技能竞赛决赛拉开帷幕。来自园区214家企业的850名选手大展身手。目前，该技能竞赛已经成为高技能人才从“蓝领”变为“金领”的绿色通道，越来越多技术精湛的“蓝领”将通过大赛脱颖而出，实现自己的“金领梦”"
+	    		/>
+</LinearLayout>

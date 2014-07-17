@@ -115,6 +115,13 @@
             android:name="com.example.poedemo.wlanprint.Qrcode"
             android:screenOrientation="portrait" />
         
+        <activity
+            android:name="com.example.poedemo.wlanprint.ActivityHtmlLoadTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.poedemo.wlanprint.ActivityCanvasTest"
+            android:screenOrientation="portrait" />
+        
         
         <service 
             android:name="com.example.poedemo.wlanprint.BtService" 

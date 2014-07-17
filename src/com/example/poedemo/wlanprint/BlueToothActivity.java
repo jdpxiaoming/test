@@ -99,8 +99,8 @@ public class BlueToothActivity extends Activity implements OnClickListener {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-//				Intent intent = new Intent(BlueToothActivity.this, Configue.class);
-//				startActivity(intent);
+				Intent intent = new Intent(BlueToothActivity.this, ActivityCanvasTest.class);
+				startActivity(intent);
 				
 				/* String tmp ="test by poe!";
 				 Pos.POS_S_TextOut(tmp, 0, SetAndShow.nScaleTimesWidth,
@@ -108,7 +108,7 @@ public class BlueToothActivity extends Activity implements OnClickListener {
 				 SetAndShow.nFontStyle);
 				 Pos.POS_FeedLine();*/
 				
-				 WebView webView = new WebView(BlueToothActivity.this);
+				/* WebView webView = new WebView(BlueToothActivity.this);
 				 WebSettings webSettings = webView.getSettings();
 			        webSettings.setLoadWithOverviewMode(true);
 			        webSettings.setUseWideViewPort(true);
@@ -119,7 +119,7 @@ public class BlueToothActivity extends Activity implements OnClickListener {
 				Bitmap mBitmap	= BitmapFactory.decodeResource(getResources(), R.drawable.tiger);
 					Pos.POS_PrintPicture(mBitmap, 384, 0);
 //				}
-				
+*/				
 			}
 
 		});
