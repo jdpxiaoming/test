@@ -55,11 +55,11 @@
         <activity android:name="com.example.poedemo.contentprovider.ProviderActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:name="com.example.poedemo.dns.ActivityDNS" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         
+        <!-- bluetooth	activity -->
         <activity 
             android:name="com.example.poedemo.wlanprint.BlueToothActivity" 
             android:theme="@android:style/Theme.Black.NoTitleBar"
             />
-        <!-- bluetooth	activity -->
         
         <activity
             android:name="com.example.poedemo.wlanprint.OptionsActivity"
@@ -120,6 +120,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.poedemo.wlanprint.ActivityCanvasTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.poedemo.view.AcitivityPullToRefreshScrollView"
             android:screenOrientation="portrait" />
         
         

@@ -6,6 +6,7 @@ import com.example.poedemo.lrc.ActivityLRC;
 import com.example.poedemo.sort.SortActivity;
 import com.example.poedemo.srt.ActivitySRT;
 import com.example.poedemo.util.ToastUtil;
+import com.example.poedemo.view.AcitivityPullToRefreshScrollView;
 import com.example.poedemo.wlanprint.BlueToothActivity;
 
 import android.app.Activity;
@@ -79,6 +80,10 @@ public class MainActivity extends Activity {
 				if(arg2==5){//blue tooth print
 					
 					startActivity(new Intent(MainActivity.this,BlueToothActivity.class));
+				}
+				if(arg2==7){//blue tooth print
+					
+					startActivity(new Intent(MainActivity.this,AcitivityPullToRefreshScrollView.class));
 				}
 			}
 			

@@ -13,6 +13,7 @@
         <item>域名解析实例</item>
         <item>蓝牙打印</item>
         <item>wifi(Tcp/ip)打印</item>
+        <item>下拉刷新带头的ScrollView</item>
         <item>等待添加...</item>
     </string-array>
     
