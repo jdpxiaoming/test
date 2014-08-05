@@ -5,6 +5,7 @@ import com.example.poedemo.dns.ActivityDNS;
 import com.example.poedemo.lrc.ActivityLRC;
 import com.example.poedemo.sort.SortActivity;
 import com.example.poedemo.srt.ActivitySRT;
+import com.example.poedemo.tabhost.TabHostActivity;
 import com.example.poedemo.util.ToastUtil;
 import com.example.poedemo.view.AcitivityPullToRefreshScrollView;
 import com.example.poedemo.wlanprint.BlueToothActivity;
@@ -84,6 +85,11 @@ public class MainActivity extends Activity {
 				if(arg2==7){//blue tooth print
 					
 					startActivity(new Intent(MainActivity.this,AcitivityPullToRefreshScrollView.class));
+				}
+				
+				if(arg2==8){//blue tooth print
+					
+					startActivity(new Intent(MainActivity.this,TabHostActivity.class));
 				}
 			}
 			

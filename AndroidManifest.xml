@@ -54,6 +54,7 @@
         <activity android:name="com.example.poedemo.sort.SortActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:name="com.example.poedemo.contentprovider.ProviderActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:name="com.example.poedemo.dns.ActivityDNS" android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity android:name="com.example.poedemo.tabhost.TabHostActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         
         <!-- bluetooth	activity -->
         <activity 
